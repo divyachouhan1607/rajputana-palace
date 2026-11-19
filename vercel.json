@@ -1,0 +1,85 @@
+{
+  "cleanUrls": false,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/rooms.html",
+      "destination": "/#rooms",
+      "permanent": true
+    },
+    {
+      "source": "/rooms/:path*",
+      "destination": "/#rooms",
+      "permanent": true
+    },
+    {
+      "source": "/gallery.html",
+      "destination": "/#gallery",
+      "permanent": true
+    },
+    {
+      "source": "/gallery/:path*",
+      "destination": "/#gallery",
+      "permanent": true
+    },
+    {
+      "source": "/location.html",
+      "destination": "/#location",
+      "permanent": true
+    },
+    {
+      "source": "/location/:path*",
+      "destination": "/#location",
+      "permanent": true
+    },
+    {
+      "source": "/dining.html",
+      "destination": "/#dining",
+      "permanent": true
+    },
+    {
+      "source": "/dining/:path*",
+      "destination": "/#dining",
+      "permanent": true
+    },
+    {
+      "source": "/meetings-events.html",
+      "destination": "/#events",
+      "permanent": true
+    },
+    {
+      "source": "/meetings-events/:path*",
+      "destination": "/#events",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us.html",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us/:path*",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/deals.html",
+      "destination": "/#book",
+      "permanent": true
+    },
+    {
+      "source": "/deals/:path*",
+      "destination": "/#book",
+      "permanent": true
+    }
+  ]
+}

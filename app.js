@@ -46,7 +46,7 @@
   // gallery lightbox
   const lb = document.getElementById('lightbox');
   const lbImg = lb.querySelector('img');
-  document.getElementById('gallery').addEventListener('click', e => {
+  document.getElementById('galleryStrip').addEventListener('click', e => {
     const img = e.target.closest('button')?.querySelector('img');
     if (!img) return;
     lbImg.src = img.src; lbImg.alt = img.alt;

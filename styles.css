@@ -272,3 +272,10 @@ html,body{overflow-x:clip}
 .hero-photo .hero-img{aspect-ratio:3/2;object-position:50% 50%;border-radius:220px 220px 22px 22px}
 .hero-photo figcaption{left:18px;transform:none}
 @media (max-width:900px){.hero-in{grid-template-columns:1fr}.hero-photo{width:100%}.hero-photo .hero-img{border-radius:140px 140px 18px 18px}}
+
+/* WhatsApp button */
+.wa-float{position:fixed;right:20px;bottom:22px;z-index:40;display:flex;align-items:center;gap:10px;background:#25d366;color:#fff;text-decoration:none;font-weight:700;padding:12px 18px 12px 14px;border-radius:999px;box-shadow:0 14px 30px -10px #128c7e99;transition:transform .2s}
+.wa-float:hover{transform:translateY(-3px)}
+.mobile-bar{grid-template-columns:1fr 1fr 1.3fr!important}
+.mobile-bar .mb-wa{background:#25d366!important;color:#fff!important}
+@media (max-width:640px){.wa-float{display:none}}
