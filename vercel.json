@@ -2,14 +2,14 @@
   "cleanUrls": false,
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "has": [
         {
           "type": "host",
           "value": "www.rajputanapalace.in"
         }
       ],
-      "destination": "https://rajputanapalace.in/:path*",
+      "destination": "https://rajputanapalace.in/$1",
       "permanent": true
     },
     {
