@@ -279,3 +279,4 @@ html,body{overflow-x:clip}
 .mobile-bar{grid-template-columns:1fr 1fr 1.3fr!important}
 .mobile-bar .mb-wa{background:#25d366!important;color:#fff!important}
 @media (max-width:640px){.wa-float{display:none}}
+
