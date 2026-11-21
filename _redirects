@@ -1,0 +1,18 @@
+# Old rajputanapalace.in pages -> sections of the one-page site (ported from vercel.json)
+# /index.html is redirected to / by Cloudflare Pages automatically.
+# www -> apex is a Cloudflare Redirect Rule on the zone, not here.
+/home.html             /           301
+/rooms.html            /#rooms     301
+/rooms/*               /#rooms     301
+/gallery.html          /#gallery   301
+/gallery/*             /#gallery   301
+/location.html         /#location  301
+/location/*            /#location  301
+/dining.html           /#dining    301
+/dining/*              /#dining    301
+/meetings-events.html  /#events    301
+/meetings-events/*     /#events    301
+/contact-us.html       /#contact   301
+/contact-us/*          /#contact   301
+/deals.html            /#book      301
+/deals/*               /#book      301

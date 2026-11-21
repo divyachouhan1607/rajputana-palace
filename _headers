@@ -1,0 +1,9 @@
+# Keep the *.pages.dev copies out of Google (rajputanapalace.in stays indexable)
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://:version.:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+/assets/*
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
