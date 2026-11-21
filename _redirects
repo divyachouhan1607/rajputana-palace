@@ -16,3 +16,6 @@
 /contact-us/*          /#contact   301
 /deals.html            /#book      301
 /deals/*               /#book      301
+
+# Search Console HTML-file verification must answer 200 at the exact .html URL (Pages would 308 it)
+/googlec7e78417ab31e705.html  /googlec7e78417ab31e705  200
