@@ -280,3 +280,5 @@ html,body{overflow-x:clip}
 .mobile-bar .mb-wa{background:#25d366!important;color:#fff!important}
 @media (max-width:640px){.wa-float{display:none}}
 
+/* bigger tap targets for phone numbers (look unchanged) */
+.bar a,.foot a[href^="tel:"]{display:inline-block;padding:12px 8px;margin:-12px -8px}
